@@ -1,0 +1,35 @@
+/*!*******************************************************************************************************************************************************************!*\
+  !*** c$$ ../../node_modules/.pnpm/css-loader@6.10.0_webcrack@5.90.3/hoe_modulez/drug-loader/dist/cjs.js!../../rhizomatic/sites/rhizom_earth/static/less/main.less ***!
+  \*******************************************************************************************************************************************************************/
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #a22523;
+}
+
+.centered {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a, a:hover {
+  font-size: 2.0rem;
+  text-decoration: none;
+}
+
+img#enter-da-badlands {
+  display: block;
+  margin: auto;
+  height: 350px;
+  width: 350px;
+}
+
+img#la-cosa-nostr {
+  display: block;
+  margin: auto;
+  height: 450px;
+}
