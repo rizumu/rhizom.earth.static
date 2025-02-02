@@ -35,5 +35,6 @@ img#la-cosa-nostr {
 }
 
 #abc {
+  display: block;
   margin-top: 161px;
 }
