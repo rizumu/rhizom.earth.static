@@ -1,38 +1,139 @@
-<!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>rhizom.earth 2025</title>
-    <link href="stylewars.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rhizome.earth // made of plateaus</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="css/input.css" rel="stylesheet">
+    <link href="css/stylewars.css" rel="stylesheet"/>
     <script src="//static.rhizom.earth/js/rhizom_earth-49087747cf39df66c33c.js" ></script>
-    <script src="https://js.sentry-cdn.com/641b3ff63e9d00b9d8a9ac682f6cf6cc.min.js" crossorigin="anonymous"></script>
   </head>
+
   <body id="home">
-    <header class="centered">
-      <a href="https://nf.rhizom.earth/sonic/knowledge.flac" alt="feelsogood" style="color:hsla(275,100%,50%);">
-        sonic boom
-      </a>
-    </header>
-    <main class="centered">
-      <div class="item">
-        <a href="https://nf.rhizom.earth/film/ekman-tears-of-a-clown.webm" alt="atlantikwall * seawolf * forward the revolution">
-          <img id="enter-da-badlands" src="https://media.rhizom.earth/visual/rhize-up.png" alt="wedonothearitwithourears" />
-        </a>
-      </div>
-      <div class="item">
-        <video id="abc" controls width="450" autoplay>
-          <source src="https://nf.rhizom.earth/film/abc-how-to-be-a-zilli0nAir3.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    </main>
-    <footer class="centered">
-      <a alt="the secret is to really begin" href="https://daggersdrawn.xyz" style="color:hsla(275,100%,50%);">
-        https://daggersdrawn.xyz
-      </a>
-    </footer>
+    <div id="home-grid-parent" class="mx-auto container grid grid-cols-5 place-items-center text-base font-mono">
+
+      <header class="col-span-5 bg-red-100 text-2xl p-5">
+        <nav class="container mx-auto flex justify-between items-center">
+          <a href="https://rhizom.earth" class="font-bold text-purple-700 hover:text-[#a22523]">rhizom.earth</a>
+          <div class="px-23 text-[#a22523] hover:text-yellow-400 font-extrabold">
+            <a href="https://open.substack.com/pub/wassimalsindi/p/axiomatic-realism-i-on-the-fence">
+              1 ⇌ ∥ ⇌ ☩ ⇌ 𒀪 ⇌ ☪ ⇌ ∅ ⇌ ٥ ⇌ 0</a>
+          </div>
+          <ul class="flex space-x-4 text-purple-700 font-bold">
+            <li><a href="https://praxis-records.net" class="hover:text-[#a22523]">theater</a></li>
+            <li><a href="https://pmpress.org" class="hover:text-[#a22523]">shuffle</a></li>
+            <li><a href="https://printedmatter.org" class="hover:text-[#a22523]">soon</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="col-span-5">
+        <div class="grid grid-cols-3 gap-5 place-items-center">
+          <!-- eins -->
+          <div class="col-span-3">
+            <a href="https://nf.rhizom.earth/film/ekman-tears-of-a-clown.mp4" alt="atlantikwall * seawolf * forward the revolution">
+              <img id="enter-da-badlands" class="size-116" src="https://media.rhizom.earth/visual/rhize-up.png" alt="wedonothearitwithourears" />
+            </a>
+          </div>
+
+          <!-- zwei -->
+          <video controls width="450">
+            <source src="https://nf.rhizom.earth/film/finnegans-wake.mp4" type="video/mp4" />
+            Program your browser to support the video tag.
+          </video>
+
+          <video controls width="450">
+            <source src="https://nf.rhizom.earth/film/janksy-noise-in-the-wrong-cafe-chinchens-hopi-tears-at-dancing-ledge-cut.mp4" type="video/mp4" />
+            Program your browser to support the video tag.
+          </video>
+
+          <video controls width="450">
+            <source src="https://nf.rhizom.earth/film/abc-how-to-be-a-zilli0nAir3.mp4" type="video/mp4" />
+            Program your browser to support the video tag.
+          </video>
+
+          <!-- zwei -->
+          <video controls width="450">
+            <source src="https://nf.rhizom.earth/film/sc-what-is-love.webm" type="video/webm" />
+            Program your browser to support the video tag.
+          </video>
+
+          <video controls width="450">
+            <source src="https://nf.rhizom.earth/film/tomato-pulp.mp4" type="video/mp4" />
+            Program your browser to support the video tag.
+          </video>
+
+          <video controls width="450">
+            <source src="https://nf.rhizom.earth/film/moag.webm" type="video/webm" />
+            Program your browser to support the video tag.
+          </video>
+
+          <!-- drei -->
+          <video controls width="450">
+            <source src="https://nf.rhizom.earth/film/yaya23-sonic-waters.mp4" type="video/mp4" />
+            Program your browser to support the video tag.
+          </video>
+
+          <video controls width="450">
+            <source src="https://nf.rhizom.earth/film/tour-de-breakin.mp4" type="video/mp4" />
+            Program your browser to support the video tag.
+          </video>
+
+          <video controls width="450">
+            <source src="https://nf.rhizom.earth/film/kinetic-typography.mp4" type="video/mp4" />
+            Program your browser to support the video tag.
+          </video>
+
+          <div class="col-span-3 mt-23">
+            <img src="https://media.rhizom.earth/visual/programme-for-the-première-of-ubu-roi.png" alt="its-more-fun-to-compute" />
+          </div>
+
+        </div>
+      </main>
+
+      <footer class="col-span-5 p-5 mt-23 text-lg bg-red-100 text-slate-950">
+        <div id="footer-grid-parent" class="mx-auto container grid grid-cols-3 items-center">
+
+          <div class="text-left text-[#a22523]">
+            <a href="https://nf.rhizom.earth/sonic/knowledge.flac" alt="feelsogood" style="color:hsla(275,100%,50%);">
+              sonic thump
+            </a>
+            <a
+              href="https://daggersdrawn.xyz"
+              alt="the secret is to really begin"
+              target="_blank"
+              rel="noreferrer"
+            >
+              at daggers drawn
+            </a>
+          </div>
+
+          <div class="text-center font-bold text-[#a22523]">
+            <div>
+              <a href="https://nf.rhizom.earth/film/id-die-for-you.mp4" alt="de la anarquía al éxtasis" class="text-purple-400">
+                ħɨǥħ ɇnđᵾɍȺnȼɇ ɍȺvɨnǥ
+              </a>
+            </div>
+            <div>
+              <a href="https://lavazone.org" alt="accelerate the lava flow" class="text-pink-400">
+                there is no disctinction between the individual and the collective
+              </a>
+              <a href="https://www.woodenshoebooks.org" alt="de la anarquía al éxtasis" class="text-yellow-400">
+                #116
+              </a>
+            </div>
+          </div>
+
+          <div class="text-right text-[#a22523]">
+            <a href="https://soundcloud.com/rizumu/" alt="nutrients">
+              someone else's computer
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
 
-<!-- courtesy of da' undaground set founded in august of 1994 in allentown pennsylvania -->
+<!-- da' undaground set august 1994 -->
